@@ -1,0 +1,58 @@
+h1, p {
+  font-family: Lato;
+}
+
+.grid {
+	display: flex;	
+	width: 100%;
+	min-height: 100vh;
+	flex-wrap: wrap;
+	align-items: center;
+  margin-bottom: 100px;
+}
+
+.item {
+	flex: 0 0 30%;
+	text-align: center;
+  margin: 4px;
+}
+
+.item img {
+		width: 150px;
+		height: 150px;
+}
+
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  margin: 10px 0px;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.footer {
+  background: #ddd;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.countryDetails {
+ padding: 15px;
+}
+
+.row {
+  display: flex;
+  padding:15px 0px;
+}
+
+.propertyName {
+  padding-right: 15px;
+  min-width: 5%;
+}
